@@ -42,8 +42,8 @@ A Python implementation that converts regular expressions to Deterministic Finit
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/danitdrvc/regex-to-dfa.git
-cd regex-to-dfa
+git clone https://github.com/danitdrvc/Regex-to-DFA-Converter.git
+cd Regex-to-DFA-Converter
 ```
 
 2. Ensure you have Python 3.7+ installed:
@@ -171,9 +171,3 @@ The implementation includes comprehensive error handling:
 - `LexerError`: Invalid tokens or ambiguous strings
 - `ParserError`: Syntax errors in regex
 - Position tracking for precise error reporting
-
-## Acknowledgments
-
-- Based on the Berry-Sethi algorithm for direct DFA construction
-- Implements concepts from compiler design and formal language theory
-- Inspired by classic automata theory literature
